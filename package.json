@@ -1,0 +1,14 @@
+{
+  "name": "chrome-extension-auto-deploy",
+  "version": "0.0.1",
+  "description": "Automated Chrome Web Store Deployment",
+  "scripts": {
+    "zip": "zip -r extension.zip extension/",
+    "release": "npm run zip && webstore upload --file extension.zip --extension-id '<insert ID here>' --auto-publish"
+  },
+  "author": "Krishna Acondy",
+  "license": "MIT",
+  "devDependencies": {
+    "chrome-webstore-upload-cli": "^0.2.0"
+  }
+}
