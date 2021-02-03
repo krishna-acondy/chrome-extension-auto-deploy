@@ -1,6 +1,6 @@
-# Test Deploy to Chrome
+# Chrome Extension Auto Deploy
 
-A fake extension to test auto deploying to Chrome Web Store with grunt via Travis CI.
+Automated deployment to Chrome Web Store via GitHub Actions.
 
 # Replicating the Process in Another Project
 1. Go to the [Google Developers Console](https://console.developers.google.com/) to create the CLIENT_ID and CLIENT_SECRET you'll need to deploy. Start with the "Before You Begin" section here https://developer.chrome.com/webstore/using_webstore_api and make sure you have a `CLIENT_ID`, `CLIENT_SECRET`, and `REFRESH_TOKEN` following those instructions.
